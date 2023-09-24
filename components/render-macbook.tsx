@@ -68,9 +68,11 @@ export function RenderMacbook() {
               fontSize={0.6}
               position={[2, 0.75, 0.75]}
               rotation-y={-1.25}
-              children={`Laborit\nBrasil`}
+              maxWidth={2}
               textAlign="center"
-            />
+            >
+              Laborit Brasil
+            </Text>
 
             <MeshComponent />
           </Float>
