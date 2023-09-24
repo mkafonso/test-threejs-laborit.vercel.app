@@ -5,3 +5,11 @@
 canvas {
   touch-action: none;
 }
+
+.htmlScreen iframe {
+  border: none;
+  background: #000000;
+  border-radius: 20px;
+  width: 1024px;
+  height: 670px;
+}
